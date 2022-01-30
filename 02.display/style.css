@@ -1,0 +1,32 @@
+div {
+    width: 100px;
+    height: 80px;
+    background-color: blue;
+    margin: 10px 20px;
+    border: 2px solid;
+    padding: 30px;
+    display: inline-block;
+}
+
+a {
+    width: 200px;
+    height: 40px;
+    background-color: gold;
+    margin: 10px 20px;
+    border: 2px solid;
+    padding: 30px;
+}
+
+p {
+    width: 200px;
+    background-color: hotpink;
+    margin: 10px;
+    border: 1px solid;
+    padding: 10px;
+}
+
+span {
+    display: block;
+    height: 30px;
+    background-color: mediumseagreen;
+}
