@@ -144,6 +144,27 @@ ul.grid {
 
 /* image */
 
-.our-work {
+.our-work .grid li {
     padding: 20px;
+    height: 450px;
+    border-radius: 3px;
+    background-clip: content-box;
+    background-size: cover;
+    background-position: center;
+}
+
+.our-work .grid li.small {
+    flex-basis: 40%;
+}
+
+.our-work .grid li.large {
+    flex-basis: 60%;
+}
+
+@media(max-width:1000px) {
+    .our-work .grid li.small,
+    .our-work .grid li.large {
+        flex-basis: 100%;
+        padding: 10px;
+    }
 }
